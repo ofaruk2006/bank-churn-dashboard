@@ -1,0 +1,102 @@
+{
+  "name": "Bank Churn Light",
+  "dataColors": [
+    "#0E8C82",
+    "#D6363F",
+    "#C27C0E",
+    "#2F6FD6",
+    "#6F5CD6",
+    "#2E9E5B",
+    "#7A4FD0",
+    "#8794A5"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#102A43",
+  "tableAccent": "#0E8C82",
+  "good": "#0E8C82",
+  "neutral": "#C27C0E",
+  "bad": "#D6363F",
+  "maximum": "#D6363F",
+  "center": "#C27C0E",
+  "minimum": "#0E8C82",
+  "null": "#8794A5",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#102A43"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#102A43"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#5B6F86"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#5B6F86"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 100
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#102A43"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F2F5F9"
+              }
+            },
+            "transparency": 100
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F2F5F9"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

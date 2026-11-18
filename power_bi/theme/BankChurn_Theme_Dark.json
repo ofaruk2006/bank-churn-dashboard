@@ -1,0 +1,102 @@
+{
+  "name": "Bank Churn Navy",
+  "dataColors": [
+    "#2EC4B6",
+    "#FF5A5F",
+    "#FFB703",
+    "#4EA8DE",
+    "#9B8CFF",
+    "#7BD389",
+    "#C77DFF",
+    "#8D99AE"
+  ],
+  "background": "#12294A",
+  "foreground": "#E8EEF7",
+  "tableAccent": "#2EC4B6",
+  "good": "#2EC4B6",
+  "neutral": "#FFB703",
+  "bad": "#FF5A5F",
+  "maximum": "#FF5A5F",
+  "center": "#FFB703",
+  "minimum": "#2EC4B6",
+  "null": "#8D99AE",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E8EEF7"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E8EEF7"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#9FB3C8"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#9FB3C8"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#12294A"
+              }
+            },
+            "transparency": 100
+          }
+        ],
+        "border": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#E8EEF7"
+              }
+            },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B1F3A"
+              }
+            },
+            "transparency": 100
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B1F3A"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
